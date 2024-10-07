@@ -19,10 +19,6 @@ Este es un proyecto desarrollado como parte de mi portafolio de Front-End. La ap
 - **HTML y JavaScript**: Para la estructura y funcionalidad general de la aplicación.
 - **APIs externas**: Las recetas y bebidas se obtienen de APIs de comida y bebidas, que permiten ofrecer una variedad de opciones actualizadas.
 
-- pues Clonar este repositorio:
-
-  **git clone** *https://github.com/tu-usuario/recetas-y-bebidas.git*
-
 **APIs Utilizadas**
 Este proyecto utiliza las siguientes APIs para obtener datos de recetas y bebidas:
 
