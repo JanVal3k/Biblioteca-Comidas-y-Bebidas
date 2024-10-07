@@ -1,0 +1,254 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+
+.loader {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 100%;
+}
+.panWrapper {
+  width: 200px;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pan {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: fit-content;
+  animation: cooking 1.7s infinite;
+}
+@keyframes cooking {
+  0% {
+    transform: rotate(0deg);
+    transform-origin: top right;
+  }
+  10% {
+    transform: rotate(-4deg);
+    transform-origin: top right;
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.food {
+  position: absolute;
+  width: 40%;
+  height: 6px;
+  background: linear-gradient(to bottom, rgb(82, 33, 33), rgb(200, 106, 106));
+  left: 10px;
+  border-radius: 50%;
+  animation: flip 1.7s infinite;
+  z-index: 2;
+}
+@keyframes flip {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-100px) rotate(180deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(360deg);
+  }
+}
+.panBase {
+  z-index: 3;
+  width: 50%;
+  height: 22px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background: linear-gradient(to top, rgb(45, 212, 191), rgb(10, 191, 191));
+}
+.panHandle {
+  width: 40%;
+  background: linear-gradient(to bottom, rgb(18, 18, 18), rgb(74, 74, 74));
+  height: 10px;
+  border-radius: 10px;
+}
+.panShadow {
+  width: 70px;
+  height: 8px;
+  background-color: rgba(0, 0, 0, 0.21);
+  margin-left: 15px;
+  border-radius: 10px;
+  animation: shadow 1.7s infinite;
+  filter: blur(5px);
+}
+@keyframes shadow {
+  0% {
+    transform: scaleX(0.7);
+  }
+  50% {
+    transform: scaleX(1);
+  }
+  100% {
+    transform: scaleX(0.7);
+  }
+}
+/*------------------------------*/
+.loader2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.beerWrapper2 {
+  width: 100px;
+  height: 150px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.beerMug2 {
+  width: 80px;
+  height: 150px;
+  background-color: #f5d367;
+  border-radius: 0 0 10px 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.beerLiquid2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: #ffa500;
+  animation: fillBeer 4s infinite;
+}
+
+.beerFoam2 {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  border-radius: 50% 50% 0 0;
+  animation: foamBubble 2s infinite;
+}
+
+.mugHandle2 {
+  position: absolute;
+  right: -20px;
+  top: 50px;
+  width: 30px;
+  height: 60px;
+  border: 10px solid #f5d367;
+  border-left: none;
+  border-radius: 0 25px 25px 0;
+}
+
+@keyframes fillBeer {
+  0% { height: 0; }
+  80% { height: 100%; }
+  100% { height: 90%; }
+}
+
+@keyframes foamBubble {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+/* Fondos animados
+@keyframes move {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 40px 40px;
+    }
+  }
+  
+  .bg-grid-animate {
+    background: #FEF08A;
+    background: linear-gradient(
+      135deg,
+      #FEF08A 25%,
+      #fde047 25%,
+      #fde047 50%,
+      #FEF08A 50%,
+      #FEF08A 75%,
+      #fde047 75%,
+      #fde047
+    );
+    background-size: 40px 40px;
+    animation: move 5s linear infinite;
+  }
+  
+  
+@keyframes move2 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 40px 40px;
+  }
+}
+
+.bg-grid-animate2 {
+  background: #FFA6A6;
+    background: linear-gradient(
+      90deg,
+      #ffa6a683 25%,
+      #8053537c 25%,
+      #8053537c 50%,
+      #ffa6a683 50%,
+      #ffa6a683 75%,
+      #8053537c 75%,
+      #8053537c
+  );
+  background-size: 60px 60px;
+  animation: move2 5s linear infinite;
+  
+}
+@keyframes move3 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 40px 40px;
+  }
+}
+
+.bg-grid-animate3 {
+  background: #f09749d6;
+    background: linear-gradient(
+      135deg,
+      #f09749d6 25%,
+      #ac6a31db 25%,
+      #ac6a31db 50%,
+      #f09749d6 50%,
+      #f09749d6 75%,
+      #ac6a31db 75%,
+      #ac6a31db
+  );
+  background-size: 40px 40px;
+  animation: move3 5s linear infinite;
+  
+}
+  */
+/*Para el video */
+  /*.shadow-text {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  }*/
