@@ -1,4 +1,4 @@
-# Bienvenido a Recetas y Bebidas
+# :fork_and_knife: Bienvenido a Recetas y Bebidas :beer:
 
 Este es un proyecto desarrollado como parte de mi portafolio de Front-End. La aplicación te permite explorar recetas de comida y bebidas de diferentes partes del mundo. Está construido principalmente con **React** y utiliza **Tailwind CSS** para la mayoría de los estilos. Además, incorpora **HTML**, **JavaScript**, y un poco de **CSS** para ciertos elementos personalizados.
 
@@ -12,11 +12,11 @@ Este es un proyecto desarrollado como parte de mi portafolio de Front-End. La ap
   - Alcohol opcional
 - Al seleccionar una bebida, verás detalles como imagen, cantidades, ingredientes y más.
 
-## Tecnologías Utilizadas
+## Tecnologías Utilizadas :computer:
 
-- **React**: Usado para la creación de componentes interactivos y la gestión del estado de la aplicación.
-- **Tailwind CSS**: Principal framework de CSS utilizado para el diseño y la estilización.
-- **HTML y JavaScript**: Para la estructura y funcionalidad general de la aplicación.
+- **<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>**: Usado para la creación de componentes interactivos y la gestión del estado de la aplicación.
+- **<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" alt="tailwindcss" width="40" height="40"/>**: Principal framework de CSS utilizado para el diseño y la estilización.
+- **<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> y <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>**: Para la estructura y funcionalidad general de la aplicación.
 - **APIs externas**: Las recetas y bebidas se obtienen de APIs de comida y bebidas, que permiten ofrecer una variedad de opciones actualizadas.
 
 **APIs Utilizadas**
