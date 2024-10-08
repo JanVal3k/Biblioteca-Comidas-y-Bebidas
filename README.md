@@ -15,7 +15,7 @@ Este es un proyecto desarrollado como parte de mi portafolio de Front-End. La ap
 ## Tecnologías Utilizadas :computer:
 
 - **<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>**: Usado para la creación de componentes interactivos y la gestión del estado de la aplicación.
-- **<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" alt="tailwindcss" width="40" height="40"/>**: Principal framework de CSS utilizado para el diseño y la estilización.
+- **<img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="tailwindcss" width="40" height="40"/>**: Principal framework de CSS utilizado para el diseño y la estilización.
 - **<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> y <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>**: Para la estructura y funcionalidad general de la aplicación.
 - **APIs externas**: Las recetas y bebidas se obtienen de APIs de comida y bebidas, que permiten ofrecer una variedad de opciones actualizadas.
 
